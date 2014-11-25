@@ -168,3 +168,15 @@ overflow: auto;
 	font-size: 1.563rem;
 	margin: 2.5rem 0px 1.875rem;
 }
+footer{
+	background-color: white;
+}
+.bottom-footer {
+
+}
+.bottom-footer p{
+	
+}
+.bottom-footer ul {
+	display: inline-block;
+}
