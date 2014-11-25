@@ -54,7 +54,7 @@ body {
     font-family: 'roboto', sans-serif;
 }
 div {
-    border: 1px solid Chocolate;
+    /* border: 1px solid Chocolate; */
 }
 /* Navigation Section */
 .top-navigation {
@@ -62,6 +62,7 @@ div {
     position: fixed;
     width: 100%;
     border-bottom: 1px solid #DDD;
+    z-index: 9999;
 }
 .top-navigation > .content {
     width: 970px;
@@ -77,6 +78,7 @@ div {
 	color: #838994;
 	font-size: 1.04rem;
 	margin-top: 1.7rem;
+	-webkit-font-smoothing: antialiased;
 }
 .top-navigation .links li{
 	display: inline-block;
@@ -86,7 +88,7 @@ div {
 	color: #4c5058;
 	font-weight: 500;
 }
-top-navigation .links li:hover{
+.top-navigation .links li:hover{
 	cursor: pointer;
 	color: #333333;
 }
@@ -95,7 +97,44 @@ background-image: "";
 background-size: cover;
 height: 45em;
 
+/* introduction section*/
 }
-.main-section > p{
-
+.introduction{
+background-image: url('../images/karmabackground.jpg');
+background-position: center bottom;
+background-repeat: no-repeat;
+background-size: cover;
+height: 45.938rem;
+overflow: auto;
 }
+.introduction h1, 
+.introduction h3{
+	color: white;
+	text-align: center;
+	font-weight: 300;
+}
+.introduction h1 {
+	margin-top: 17.563rem;
+	font-size: 1.563rem;
+}
+.introduction h3{
+	margin-top: 1.25rem;
+	font-size: 1.563rem;
+}
+.big-button {
+    text-shadow: none;
+    border-style: none;
+    border-radius: 4px;
+    padding: 16px 26px;
+    line-height: 1.33;
+    background-color: orange;
+    font-size: 1.5rem;
+    color: white;
+    display: inline-block;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+}
+ .big-button:hover{
+ 	background-color: blue;
+ 	cursor: pointer;
+ }
